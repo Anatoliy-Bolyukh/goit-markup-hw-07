@@ -1,0 +1,24 @@
+/* адреса */
+
+.address__link {
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:not(:last-child) {
+        margin-bottom: 9px;
+    }
+
+    &-white {
+        color: var(--main-background);
+    }
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}

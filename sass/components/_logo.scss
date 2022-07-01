@@ -1,0 +1,15 @@
+/* логотип компанії */
+
+.logo {
+    color: black;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    min-width: 145px;
+
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
