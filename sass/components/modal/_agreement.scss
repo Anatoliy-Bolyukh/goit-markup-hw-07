@@ -20,12 +20,12 @@
     display: block;
     width: 16px;
     height: 15px;
-    background-image: url(../Images/check-box/Vector.svg);
+    background-image: url(../images/check-box/Vector.svg);
 
 }
 
 .agreement__checkbox:checked+.agreement__custom-checkbox {
-    background-image: url(../Images/check-box/icon\ check.svg);
+    background-image: url(../images/check-box/icon\ check.svg);
 }
 
 .agreement__text {

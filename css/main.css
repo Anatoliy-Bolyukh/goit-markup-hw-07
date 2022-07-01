@@ -175,8 +175,8 @@ p {
   padding: 0;
   width: 1600px;
   background-color: #2F303A;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../Images/Img-hero.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/Img-hero.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Img-hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-hero.jpg);
 }
 
 .hero__container {
@@ -795,11 +795,11 @@ p {
   display: block;
   width: 16px;
   height: 15px;
-  background-image: url(../Images/check-box/Vector.svg);
+  background-image: url(../images/check-box/Vector.svg);
 }
 
 .agreement__checkbox:checked + .agreement__custom-checkbox {
-  background-image: url(../Images/check-box/icon\ check.svg);
+  background-image: url(../images/check-box/icon\ check.svg);
 }
 
 .agreement__text {
